@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#p-1 {
+    color:rgb(2, 0, 128)
+}
+#p-2{
+    background-color: bisque;
+}
+#s-1{
+    color: brown;
+}
+#s-2{
+    background-color: chocolate;
+}

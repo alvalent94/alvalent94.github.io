@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#p-1 {
+    color: blueviolet;
+}
+#p-1{
+    background-color: bisque;
+}
+#p-2 {
+    background-color: azure;
+}
+#p-3 {
+    color: aquamarine;
+}
+#p-3 {
+    background-color: blueviolet;
+}
+#s-1{
+    background-color: rgb(123, 203, 203);
+}
+#s-2{
+    color: blue;
+}
+#s-3{
+    background-color: aquamarine;
+}
+#s-4{
+    color: deepskyblue;
+}
+#s-5{
+    background-color: darkblue;
+}
+#s-6{
+    color: coral;
+}
