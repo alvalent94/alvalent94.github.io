@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+span {
+    background-color: skyblue;
+    display: block;
+}
+
+div {
+    background-color: limegreen;
+    display: inline-block;
+    width: 200px;
+    margin: 12px;
+    padding: 12px;
+}
+
+#media-and-text 
+#three-columns {
+    background-color: transparent;
+    display: block;
+    width: auto;
+}
+
+#media {
+    width: 150px;
+    vertical-align: middle;
+}
+#text {
+    background-color: transparent;
+    width: 150px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 24px;
+    font-size: 25px;
+}
+.column {
+    background-color: transparent;
+    width: 150px;
+    display: inline-block;
+}
