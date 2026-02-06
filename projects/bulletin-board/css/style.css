@@ -15,5 +15,15 @@
     display: inline-block;
     vertical-align: top;
     text-align: left;
-    font-family: cursive;
+    box-shadow: 10px 10px 8px #00000033;
+}
+.img-post {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    margin: 20px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    box-shadow: 10px 10px 8px #00000033;
 }
