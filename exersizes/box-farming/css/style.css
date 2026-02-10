@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#akira {
+    height: 300px;
+    border: 400px;
+    background-color: beige;
+    padding: 50px;
+    margin: 50px;
+}
+
+#wall {
+    height: 200px;
+    border-radius: 50%;
+    background-color: beige;
+    padding: 20px;
+    margin: 20px;
+}
+.words {
+     width: 70px;
+     background-color: cyan;
+     border: 30px;
+     padding: 5px;
+     margin: 5px;
+}
+
