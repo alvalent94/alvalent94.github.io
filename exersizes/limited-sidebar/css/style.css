@@ -15,17 +15,16 @@ body {
     padding: 24px;
 }
 
-.chapter {
-    font-weight: bold 24px;
+#sidebar .chapter{
+    font-weight: bold;
+    font-size: 24px;
 }
 
-.edit {
+#sidebar .edit {
     color: orange;
     font-style: italic;
 }
 
-li.chapter {
+#sidebar .edit.chapter li {
     color: red;
-    font-style: italic;
-    font-weight: bold;
 }
