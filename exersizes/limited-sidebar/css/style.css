@@ -15,7 +15,7 @@ body {
     padding: 24px;
 }
 
-#sidebar .chapter{
+#sidebar .chapter {
     font-weight: bold;
     font-size: 24px;
 }
@@ -25,6 +25,9 @@ body {
     font-style: italic;
 }
 
-#sidebar li.chapter.edit {
-    color: red;
+#sidebar .chapteredit {
+    color: red; 
+    font-weight: bold;
+    font-style: italic;
+    font-size: 24px;
 }
