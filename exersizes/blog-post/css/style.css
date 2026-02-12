@@ -5,6 +5,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-color: black;
 }
 
 .single-column {
@@ -29,9 +30,6 @@ p {
     color: white;
 }
 
-body {
-    background-color: black;
-}
 .name {
     font-style: italic;
 }
