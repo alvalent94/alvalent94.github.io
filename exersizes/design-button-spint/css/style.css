@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#school .button {
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+    color: darkseagreen;;
+    background-color: orange;
+    border-radius: 35px;
+    padding: 24px;
+    margin: 24px;
+    
+}
