@@ -18,26 +18,20 @@ body {
 h1 {
     color: blue;
     border: 25px;
-    padding: 10px;
-    margin: 10px;
 }
 
 h3 {
     color: blue;
     border: 25px;
-    padding: 14px;
-    margin: 14px;
 }
-img {
-   padding: 20px;
-   margin: 25px;
-}
+
 p {
     color: white;
-    padding: 20px;
-    margin: 20px;
 }
 
 body {
     background-color: black;
+}
+.name {
+    font-style: italic;
 }
