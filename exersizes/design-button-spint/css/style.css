@@ -11,10 +11,10 @@ body {
     font-weight: bold;
     font-size: 25px;
     text-decoration: none;
-    color: darkseagreen;;
+    color: blue;
     background-color: orange;
     border-radius: 35px;
     padding: 24px;
     margin: 24px;
-    
+    display: inline-block;
 }
