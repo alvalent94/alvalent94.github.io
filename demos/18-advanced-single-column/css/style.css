@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.single-column {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.light-container {
+    background-color: aqua;
+    padding: 48px 24px;
+}
+
+.dark-container {
+    background-color: cornflowerblue;
+    padding: 48px 24px;
+    color: aliceblue;
+}

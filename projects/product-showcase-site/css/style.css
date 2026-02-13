@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.single-column {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 80px;
+}
+
+.light-container {
+    background-color: blueviolet ;
+    padding: 48px 24px;
+    color: white;
+}
+
+.dark-container {
+    background-color: cornflowerblue;
+    padding: 48px 24px;
+    color: white;
+}
+
+.medium-container {
+    background-color: limegreen;
+    padding: 48px 24px;
+    color: white;
+}
+
+.button {
+    border: 10px;
+    border-radius: 10px;
+    background-color: red;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin: 20px;
+    padding: 10px;
+    display: inline-block
+}
+h1 {
+    color: black;
+}
