@@ -21,10 +21,11 @@ body {
 
 .side-by-side-container .image-container,
 .side-by-side-container .text-container {
-   flex: 1;
+    flex: 1;
 }
 
-.side-by-side-container, .image-container img {
+.side-by-side-container, 
+.image-container img {
     width: 100%;
 }
 .side-by-side-container h2 {
@@ -48,8 +49,7 @@ body {
 
 #card-container {
     display: flex;
-    gap: 36px
-    ;
+    gap: 36px;
 }
 
 .card {
@@ -71,6 +71,7 @@ body {
     height: 300px;
 }
 
-.single-column, h2 {
+.single-column, 
+h2 {
     text-align: center;
 }
