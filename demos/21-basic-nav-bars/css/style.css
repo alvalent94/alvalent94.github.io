@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#navbar {
+    background: linear-gradient(
+        45deg,
+        red, 
+        #7a0505
+        );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+
+#navbar img {
+    width: 150px;
+}
+
+#navbar #logo-container {
+    margin-right: auto;
+}
+
+#navbar .cta-button {
+    background-color: white;
+    color: red;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+    margin-left: 24px;
+}
+
+#layout {
+    width: 800px;
+    margin: 46px auto;
+    font-size: 24px;
+    min-height: 200vh;
+}
