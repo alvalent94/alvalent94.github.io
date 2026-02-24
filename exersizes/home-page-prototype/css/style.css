@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#navbar {
+    background: linear-gradient(green, rgb(7, 49, 7));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: beige;
+    padding: 24px;
+}
+
+#navbar img {
+    width: 150px;
+}
+
+#navbar #logo-container {
+    margin-right: auto;
+    font-family: "Coustard", serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 30px;
+}
+
+#layout {
+    width: 800px;
+    margin: 46px auto;
+    font-size: 24px;
+    min-height: 200vh;
+}
+
+#centered-hero {
+    background-image: url(../images/clay2.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    color: white;
+    text-align: center;
+}
+
+.hero-content h1 {
+    color: green;
+    font-size: 72px;
+}
+
+.hero-content h3 {
+    font-size: 36px;
+}
+
+.button-1 {
+    background-color: beige;
+    color: green;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+    margin-left: 24px;
+    text-decoration: none;
+}
