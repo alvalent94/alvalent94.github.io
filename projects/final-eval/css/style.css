@@ -5,5 +5,88 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-image: url(../images/background4edite.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+#layout {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.layout,
+ p {
+    font-size: 25px;
+}
+
+.layout, 
+ h1 {
+    font-size: 75px;
+}
+
+h3{
+    size: 45px;
+}
+
+.three-column {
+    max-width: 1200px;
+    margin: 36px auto;
+    display: flex;
+    min-height: 100px;
+}
+.three-column img {
+    height: 200px;
+    justify-content: center;
+}
+
+.three-column h1 {
+    font-size: 75px;
+    font-weight: bold;
+}
+
+.button-1 {
+    border: 3px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 24px;
+    background-color: rgb(178, 11, 44);
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.button-2 {
+    border: 3px solid orange;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 24px;
+    background-color: teal;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.two-collumn,
+p {
+    color: white;
+}
+
+.two-collumn, 
+h3 {
+    color: white;
+}
+
+.two-collumn,
+h2 {
+    color: white;
+}
+
+.exclude {
+    color: black;
+}
