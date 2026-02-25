@@ -5,7 +5,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
-    background-image: url(../images/background4edite.jpg);
+    background-image: url(../images/bg3.jpg);
     background-size: cover;
     background-position: center center;
     height: 100vh;
@@ -22,17 +22,28 @@ body {
 }
 
 .layout,
- p {
+p {
     font-size: 25px;
+    font-family: "Funnel Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
 }
 
 .layout, 
- h1 {
+h1 {
     font-size: 75px;
+    font-family: "Coustard", serif;
+    font-weight: 900;
+    font-style: normal;
 }
 
-h3{
+h3 {
     size: 45px;
+    font-family: "Funnel Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
 }
 
 .three-column {
@@ -80,6 +91,10 @@ p {
 .two-collumn, 
 h3 {
     color: white;
+    font-family: "Funnel Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
 }
 
 .two-collumn,
