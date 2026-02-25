@@ -104,4 +104,13 @@ h2 {
 
 .exclude {
     color: black;
+    font-size: 35px;
+}
+
+.big {
+    font-size: 35px;
+    font-family: "Funnel Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
 }
