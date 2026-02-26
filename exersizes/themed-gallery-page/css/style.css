@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: whitesmoke;
+}
+
+#layout {
+    max-width: 800px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.hero {
+    background-image: url(../images/g6edit.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    color: red;
+    font-size: 50px;
+}
+
+.masonry-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.masonry-gallery img {
+    height: 250px;
+    flex: 1;
+    object-fit: cover;
+}
