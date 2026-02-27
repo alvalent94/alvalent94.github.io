@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: whitesmoke;
+}
+
+#nav {
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    /* flex-direction: column; */
+}
+
+#nav a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 20px;
+}
+
+#layout {
+    max-width: 800px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+#single-column-layout {
+    min-width: 800px;
+    margin: 48px auto;
+}
+
+#single-column-layout h1 {
+    font-size: 64px;
+    text-align: center;
+}
+
+#basic-grid-gallery {
+    display: grid;
+    grid-template-columns: 17fr 17fr;
+    gap: 24px;
+}
+
+#basic-grid-gallery img {
+    width: 80vh;
+}
+
+/* Tablet breal\k point */
+@media screen and (max-width: 640px) {
+    body {
+        background-color: aquamarine;
+    }
+
+    #single-column-layout h1 {
+        font-size: 46px;
+    }
+}
+
+/* mobile break point */
+@media screen and (max-width: 450px) {
+    body {
+        background-color: red;
+    }   
+
+    #nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    #basic-grid-gallery {
+        grid-template-columns: 17fr 17fr;
+    }
+
+    #single-column-layout h1 {
+        font-size: 32px;
+    }
+}
+
+.hero {
+    background-image: url(../images/g6edit.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    color: red;
+    font-size: 50px;
+}
+
+.masonry-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.masonry-gallery img {
+    height: 250px;
+    flex: 1;
+    object-fit: cover;
+}
