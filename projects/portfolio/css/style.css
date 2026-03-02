@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#navbar {
+    background: linear-gradient(
+        45deg,
+        red, 
+        #7a0505
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+
+#navbar img {
+    width: 150px;
+}
+
+#navbar #logo-container {
+    margin-right: auto;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+#navbar .cta-button {
+    background-color: white;
+    color: red;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+    margin-left: 24px;
+}
+
+#centered-hero {
+    background-image: url(../images/urban-hi-res-2nse.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    color: white;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 72px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.hero-content a {
+    font-size: 36px;
+    text-decoration: none;
+    background-color: white;
+    color: red;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+    margin-left: 24px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+h1 {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+
+#basic-grid-gallery {
+    display: grid;
+    grid-template-columns: 17fr 17fr 17fr;
+    border: 10px solid red;
+    padding: 24px;
+    gap: 24px;
+}
+
+#basic-grid-gallery img {
+    width: 100%;
+}
+
+#single-column {
+    width: 90vw;
+    max-width: 1200px;
+    margin: 0px auto;
+    align-items: center;
+} 
+
+#card-container {
+    display: flex;
+    gap: 36px;
+}
+
+.card {
+    border: 5px solid red;
+    margin: 36px 0px;
+    padding: 36px;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+.card h3 {
+    font-size: 36px;
+    margin: 20px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.card p {
+    font-size: 24px;
+    margin: 24px 0px 0px;
+}
+
+.card a {
+    background-color: red;
+    color: white;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 15px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 24px;
+    margin-left: 24px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
